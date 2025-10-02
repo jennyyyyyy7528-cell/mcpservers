@@ -1,5 +1,7 @@
 # Fetch MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@jennyyyyyy7528-cell/mcpservers)](https://smithery.ai/server/@jennyyyyyy7528-cell/mcpservers)
+
 A Model Context Protocol server that provides web content fetching capabilities. This server enables LLMs to retrieve and process content from web pages, converting HTML to markdown for easier consumption.
 
 > [!CAUTION]
@@ -25,6 +27,14 @@ The fetch tool will truncate the response, but by using the `start_index` argume
 ## Installation
 
 Optionally: Install node.js, this will cause the fetch server to use a different HTML simplifier that is more robust.
+
+### Installing via Smithery
+
+To install mcpservers automatically via [Smithery](https://smithery.ai/server/@jennyyyyyy7528-cell/mcpservers):
+
+```bash
+npx -y @smithery/cli install @jennyyyyyy7528-cell/mcpservers
+```
 
 ### Using uv (recommended)
 
